@@ -165,7 +165,7 @@
     <fields>
         <fullName>Custom_Field_1__c</fullName>
         <externalId>false</externalId>
-        <label>Custom Field 1</label>
+        <label>Changed Field 1</label>
         <length>20</length>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -175,7 +175,7 @@
     <fields>
         <fullName>Custom_Field_2__c</fullName>
         <externalId>false</externalId>
-        <label>Custom Field 2</label>
+        <label>Changed Field 2</label>
         <precision>18</precision>
         <required>false</required>
         <scale>0</scale>
