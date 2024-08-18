@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Custom_Field_1__c</fullName>
+        <externalId>false</externalId>
+        <label>Custom Field 1</label>
+        <length>20</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Custom_Field_2__c</fullName>
+        <externalId>false</externalId>
+        <label>Custom Field 2</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <validationRules>
+        <fullName>CustomField2Rule</fullName>
+        <active>true</active>
+        <errorConditionFormula>Custom_Field_2__c  &gt; 10000</errorConditionFormula>
+        <errorDisplayField>Custom_Field_2__c</errorDisplayField>
+        <errorMessage>Custom Field should be less than or equal to 10000</errorMessage>
+    </validationRules>
+</CustomObject>
